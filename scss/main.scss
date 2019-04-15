@@ -87,11 +87,16 @@ main {
   grid-area: bioimage;
   border-radius: 10%;
   border: $secondary-color 3px solid;
+  margin: auto;
 }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
+}
+
+.bio-list {
+  list-style-type: none;
 }
 
 .job1 {

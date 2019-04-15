@@ -167,11 +167,15 @@ main {
 .bio-image {
   grid-area: bioimage;
   border-radius: 10%;
-  border: #eece1a 3px solid; }
+  border: #eece1a 3px solid;
+  margin: auto; }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem; }
+
+.bio-list {
+  list-style-type: none; }
 
 .job1 {
   grid-area: job1; }
@@ -276,7 +280,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bio-image" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: 1fr;
