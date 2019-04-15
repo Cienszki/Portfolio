@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://cienszki.github.io/portfolio/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w scss/ -o css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "author": "",
   "license": "ISC",
